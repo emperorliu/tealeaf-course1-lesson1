@@ -24,4 +24,4 @@ puts b
 
 # I would believe that with nested do/end blocks, it would depend on what scope the do/end block
 # encapsulates, like a russian doll. If it's the inner-most block, then it has access to all the
-# variables in the outer scopes.
+# variables in the outer scopes. The other scopes don't have access to the inner scopes.

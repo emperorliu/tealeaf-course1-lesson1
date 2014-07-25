@@ -3,7 +3,7 @@
 a = [1,2,3,4,5,5,4]
 
 def method(obj)
-	obj.uniq
+  obj.uniq
 end
 
 method(a)
@@ -12,7 +12,7 @@ p a
 # Doesn't mutate caller, the outer variable remains unchanged.
 
 def method(obj)
-	obj.uniq!
+  obj.uniq!
 end
 
 method(a)

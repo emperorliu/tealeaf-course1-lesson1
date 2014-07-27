@@ -3,7 +3,7 @@
 a = [1,2,3,4,5]
 
 3.times do |n|
-	a = 4
+  a = 4
 end
 
 # I modified it in the times method scope by reassigning the variable to 4
@@ -15,7 +15,7 @@ puts a
 a = [1,2,3,4,5]
 
 3.times do |n|
-	b = 6
+  b = 6
 end
 
 puts b
